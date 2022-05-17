@@ -5,11 +5,12 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
 img {
   width: 600px;
-  margin: auto;
 }
 
 button {
@@ -32,25 +33,21 @@ a {
   color: rgb(70, 69, 69);
 }
 
-.header {
-  display: flex;
-  justify-content: space-between;
-}
-
-.header ul {
+ul {
   display: flex;
   justify-content: space-between;
   list-style-type: none;
   padding: 15px;
   margin: 0;
+  gap: 15px;
 }
 
-.header li {
-  width: 60px;
+.header, .footer {
+  display: flex;
+  justify-content: space-between;
 }
 
 .content {
-  border: 1px solid red;
   display: flex;
   flex: 1;
   align-items: center;
