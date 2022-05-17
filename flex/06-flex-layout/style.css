@@ -9,6 +9,7 @@ body {
 
 img {
   width: 600px;
+  margin: auto;
 }
 
 button {
@@ -46,4 +47,13 @@ a {
 
 .header li {
   width: 60px;
+}
+
+.content {
+  border: 1px solid red;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
