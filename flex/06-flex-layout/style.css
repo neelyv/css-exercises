@@ -18,6 +18,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 12px;
 }
 
 input {
@@ -30,7 +31,7 @@ input {
 
 a {
   text-decoration: none;
-  color: rgb(70, 69, 69);
+  color: rgb(78, 76, 76);
 }
 
 ul {
@@ -53,4 +54,8 @@ ul {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+}
+
+.footer {
+  background-color: #eee;
 }
