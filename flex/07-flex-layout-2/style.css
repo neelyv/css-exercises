@@ -61,6 +61,7 @@ li {
 }
 
 .footer {
+  display: flex;
   height: 72px;
   background: #eee;
   color: darkmagenta;
@@ -68,4 +69,6 @@ li {
   align-self: flex-end;
   margin-bottom: 0;
   margin-top: auto;
+  align-items: center;
+  justify-content: center;
 }
